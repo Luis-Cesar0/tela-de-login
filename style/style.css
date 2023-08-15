@@ -103,6 +103,7 @@ main{
 .botao > input{
     margin-top: 10px;
     width: 180px;
+    height: 100%;
     border-radius: 20px;
     background-color: #6e3d94;
     color: white;
