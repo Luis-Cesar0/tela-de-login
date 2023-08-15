@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
     /* Configurações medias */
-  @media screen and (min-width: 798px )  and (max-width: 992px){
+  @media screen and (min-width: 768px )  and (max-width: 992px){
     /* background */
     body{
         background-image: linear-gradient(to top,#49a09d,#5f2c82);
@@ -9,7 +9,7 @@
     /* Área de login  */
     #login{
         width: 90vw;
-        height: 400px;
+        height: 300px;
     }
     /* cartaz */
     #imagem{
@@ -52,7 +52,7 @@
      /* Área de login  */
     #login{
         width: 950px;
-        height: 460px;
+        height: 400px;
     }
     /* cartaz */
     #imagem{
