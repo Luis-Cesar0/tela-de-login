@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+    /* Configurações medias */
+  @media screen and (min-width: 768px )  and (max-width: 992px){
+    /* background */
+    body{
+        background-image: linear-gradient(to top,#49a09d,#5f2c82);
+    }
+    /* Área de login  */
+    #login{
+        width: 90vw;
+        height: 400px;
+    }
+    /* cartaz */
+    #imagem{
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+    /* caixas de senha e email */
+    #caixaform {
+        float: right;
+        width: 60%;
+    }
+    #caixaform > p{
+        font-size: 1.0em;
+    }
+    /* botão e link */
+    .botao{
+        text-align: center;
+    
+    }
+    .botao > input{
+        width: 90%;
+        height: 30px;
+        background-color: #469b98;
+
+    }
+    .botao > input:hover{
+        background-color: #54dbd7;
+        box-shadow: 0px 0px 10px #54dbd7;
+        color: black;
+    }   
+    
+  }
+  /* configurações de telas grande */
+  @media screen and (min-width: 992px) {
+     /* background */
+    body{
+        background-image: linear-gradient(to top,#49a09d,#5f2c82);
+    }
+     /* Área de login  */
+    #login{
+        width: 950px;
+        height: 460px;
+    }
+    /* cartaz */
+    #imagem{
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+     /* caixas de senha e email */
+    #caixaform{
+        float: left;
+        width: 50%;
+        
+    }
+    #caixaform > h1{
+        font-size: 2em;
+    }
+    #caixaform> p{
+        font-size: 1.0em;
+    }
+    /* botão e link */
+    .botao{
+        text-align: center;
+    
+    }
+    .botao > input{
+        width: 90%;
+        height: 30px;
+        background-color: #469b98;
+
+    }
+    .botao > input:hover{
+        background-color: #54dbd7;
+        box-shadow: 0px 0px 10px #54dbd7;
+        color: black;
+    } 
+  }
